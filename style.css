@@ -1,3 +1,12 @@
+@font-face {
+    font-family: storm;
+    src: url(./Storm\ Gust.otf);
+}
+@font-face {
+    font-family: sher;
+    src: url(./Ndot-55.otf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -23,6 +32,13 @@ p{
     text-transform: lowercase;
 }
 .hero{
+    color: black;
     background-color: red;
-    color: greenyellow;
+    font-family: storm;
+    font-size: 100px;
+}
+h3{
+    columns: grey;
+    font-family: sher;
+    font-size: 150px;
 }
