@@ -42,3 +42,14 @@ h3{
     font-family: sher;
     font-size: 150px;
 }
+
+/* div is a container to make a rectangular shapes */
+#container{
+    color: red;
+}
+
+.rectangle{
+    background-color: black;
+    height: 100px;
+    width: 200px;
+}

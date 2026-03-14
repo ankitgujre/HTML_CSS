@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    background-color: black;
+    color: red;
+    text-align: center;
+}
+
+/*Div is a container or rectangular shape*/
+
+#box1{
+    background: linear-gradient(red,blue,orange,white);
+    height: 200px;
+    width: 200px;
+}
+#box2{
+    background: linear-gradient(to right bottom, green,rgb(173, 69, 86),black);  /*diagonal*/
+    height: 350px;
+    width: 350px;
+}
+
+#box3{
+    background: radial-gradient(red,green); /*circular*/
+    height: 350px;
+    width: 350px;
+    margin-top: 50px;
+}
